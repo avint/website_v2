@@ -1,0 +1,30 @@
+*{margin: 0px;
+padding: 0px;
+font-family: 'Inconsolata', monospace;}
+body{
+    background-color: rgb(108, 131, 131);
+}
+
+header{width: 100vw;
+    height: 4rem;
+    margin: 0px;
+    background-color: rgb(48, 48, 53);
+    color: white;
+    text-align: center;
+    
+}
+h2{letter-spacing: 0.5rem;
+padding-top: 1rem;}
+
+.pic{
+    background-color: rgb(57, 102, 102);
+    width: 90vw;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+.img{padding-left: 2rem;
+padding-top: 2rem;
+
+    height: 20rem;
+    display: inline-block;
+}
