@@ -10,7 +10,8 @@ header{ width: 100vw;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: rgb(35, 41, 48);
-    position: fixed;}
+    position: fixed;
+z-index: 10;}
 h1 {display: inline-block;
     text-align: center;
     letter-spacing:1rem;
@@ -42,7 +43,8 @@ ul li a:hover{
     border-radius: 1rem;
     background-color: rgb(35, 35, 39);
     position: absolute;
-    margin-top: 6.5rem;}
+    margin-top: 6.5rem;
+z-index: -1;}
 .left{ width: 70%;
     height: 50rem;
     margin: 2.5%;
@@ -50,7 +52,8 @@ ul li a:hover{
     margin-right: 0rem;
     display: inline-block;
     border-radius: 1rem;
-    background-color: rgb(35, 35, 39);}
+    background-color: rgb(35, 35, 39);
+z-index: -1;}
 footer{
 
     width: 100vw;
