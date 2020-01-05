@@ -36,7 +36,7 @@ ul li a:hover{
      text-decoration: underline;
 }
 
-.right{ height: 50rem;
+.right{ height: 80rem;
     width: 20%;
     display: inline-block;
     margin: 2.5%;
@@ -46,7 +46,7 @@ ul li a:hover{
     margin-top: 6.5rem;
 z-index: -1;}
 .left{ width: 70%;
-    height: 100rem;
+    height: 80rem;
     margin: 2.5%;
     margin-top: 6.5rem;
     margin-right: 0rem;
