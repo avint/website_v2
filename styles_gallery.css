@@ -16,15 +16,40 @@ header{width: 100vw;
 h2{letter-spacing: 0.5rem;
 padding-top: 1rem;}
 
-.pic{
+.pic{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: grow 1px;;
+    justify-content: space-evenly;
+    border: 1px black solid;
     background-color: rgb(57, 102, 102);
     width: 90vw;
     margin: 1rem auto;
     border-radius: 2rem;
 }
-.img{padding-left: 2rem;
-padding-top: 2rem;
-
+.img{
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    border-radius: 0.4rem;
     height: 20rem;
     display: inline-block;
 }
+.img:hover{opacity: 70%;}
+@media only screen and (max-width: 1000px)
+{.pic{border-radius: 1rem;}
+    .img{border-radius: 0.4rem;
+    margin: 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0px;
+    height: 15rem;
+    display: inline-block; }
+    @media only screen and (max-width: 600px)
+{.pic{border-radius: 0.7rem;}
+    .img{
+    border-radius: 0.4rem;
+    margin: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    height: 8rem;
+    display: inline-block; }

@@ -2,13 +2,12 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    
     <title class="material-icons">version 2</title>
     <link rel="icon" href="icon.png">
     <link rel="stylesheet" href="styles.css">
     
 </head>
-<body>
+<body id="bb">
     <header>
         <h1>MY ANIME</h1>
         <ul>
@@ -31,9 +30,10 @@
         </div>
     </main>
     <footer >
-        <a name="contact"></a>
-        <h2 id='co'>Contacts</h2>
+        <a id="contact"></a>
+        <h2 id='Co'>Contacts</h2>
         <a id='review' href="form.html" target="_blank" >Reviews and Suggestions</a>
+
     </footer>
 
 </body>
