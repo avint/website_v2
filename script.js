@@ -6,12 +6,12 @@ l.addEventListener('click',()=>{
     
     if(c){
         link.setAttribute('href','stylelight.css');
-        l.innertext='Darktheme'
+        l.innerHTML='Dark theme';
         c=false;
     }
     else{
         link.setAttribute('href','styles.css');
-        l.innertext='Lighttheme'
+        l.innerHTML='Light theme';
         c=true;
     }
 });
