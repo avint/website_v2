@@ -6,9 +6,10 @@
     <title class="material-icons">version 2</title>
     <link rel="icon" href="icon.png">
     <link id ='css' rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
 </head>
-<body id="bb">
+<body class='contents' id="bb">
     <header>
         <h1>MY ANIME</h1>
         <ul>

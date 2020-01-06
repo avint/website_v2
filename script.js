@@ -1,17 +1,24 @@
-var l=document.getElementById('light');
-var link=document.getElementById('css');
+var l=$('#light');
+var link=$('#css');
 c=true;
-l.addEventListener('click',()=>{
+var h=$('.contents');
+
+
+l.click(()=>{
     console.log('clicked');
     
     if(c){
-        link.setAttribute('href','stylelight.css');
-        l.innerHTML='Dark theme';
+        h.css('display',' none');
+        h.fadeIn(1500);
+        link.attr('href','stylelight.css');
+        l.text('Dark theme');
         c=false;
     }
     else{
-        link.setAttribute('href','styles.css');
-        l.innerHTML='Light theme';
+        h.css('display',' none');
+        h.fadeIn(1500);
+        link.attr('href','styles.css');
+        l.text('Light theme');
         c=true;
     }
 });
